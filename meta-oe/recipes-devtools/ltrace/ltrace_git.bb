@@ -15,7 +15,7 @@ SRCREV = "f44b28421979cec88d6d6a778fc27a8cd514f508"
 
 DEPENDS = "elfutils"
 RDEPENDS_${PN} = "elfutils"
-SRC_URI = "git://anonscm.debian.org/collab-maint/ltrace.git \
+SRC_URI = "git://github.com/sparkleholic/ltrace.git;branch=master;protocol=http \
            file://ltrace-0.7.2-unused-typedef.patch \
            file://configure-allow-to-disable-selinux-support.patch \
            file://0001-In-Linux-backend-initialize-linkmap-struct.patch \
